@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Infinite Loop JQuery </title>
+</head>
+
+<style type="text/css">	
+	#container{
+		width: 980px; 
+		margin : auto;
+	}
+
+	h1{
+		text-align: center ;
+	}
+</style>
+
+<body>
+	<section id="container">
+		<h1>Infinite Loop JQuery</h1>
+		<div id="slide">
+			<img src="img/companies.png">
+		</div>
+	</section>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript"  src="js/infiniteLoop.min.js"></script>
+
+<script type="text/javascript">
+	$('#slide').infiniteLoop("960" , "150");
+</script>
+
+</body>
+</html>
